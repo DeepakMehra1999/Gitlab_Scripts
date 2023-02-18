@@ -1,0 +1,66 @@
+##########################################################################################
+##############Please don't make any change to these value#################################
+##########################################################################################
+
+#User needs to give input in below final_gitlab_folder variable
+#store /app in a dir variable
+dir="/app"
+
+
+#Please specify the path of folder in path_where_you_want_to_move_backup variable where you want to move backup in 2nd server
+#This folder must be present in 2nd server so that final_gitlab_folder easily migrate
+
+
+##########################################################################################
+##########################################################################################
+##########################################################################################
+##########################################################################################
+##########################################################################################
+
+#Please Enter the PRIVATE IP address of the server
+host_ip=
+
+#Use S3 if you want to store backup on S3, Use LF if you want to store in local file system
+backup_location=LF
+
+#Please specify the name of final_gitlab_folder
+final_gitlab_folder=gitlab_backup_folder
+
+#Please specify the folder name where you want to pull the backup files
+folder_name_to_pull_backup_files=S3_folder
+
+#Please specify the bucket name
+Bucket_Name=
+
+#Please specify the folder name
+Folder_Name=
+
+#Please specify the sub folder name
+Sub_Folder_Name=Gitlab_backup_files/
+
+#Please specify the AWS access_key
+AWS_ACCESS_KEY_ID=
+
+#Please specify the AWS secret access key
+AWS_SECRET_ACCESS_KEY=
+
+#Please Enter the PRIVATE IP address of the server where you want to migrate backup
+host_ip_of_server2=
+
+#Please Enter the user-name of the server
+host_user_of_server2=
+
+#Please Enter the Password of the server
+host_password_of_server2=
+
+#Please specify the path where you want to move backup
+path_where_you_want_to_move_backup=/app/transfer_gitlab_backup
+
+#Please specify Yes if you want to take backup
+Backup=Yes
+
+#Please specify Yes if you want to Pull backup file from S3
+Pull=
+
+#Please specify Yes if you want to Pull backup file from S3
+Restore=
