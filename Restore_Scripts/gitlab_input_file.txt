@@ -1,0 +1,50 @@
+
+dir="/app"
+
+#Please specify the correct path of path_of_folder_where_backup_files_are_already_present, where backup tranfers from 1st server
+
+
+##########################################################################################
+##########################################################################################
+##########################################################################################
+##########################################################################################
+##########################################################################################
+
+#Please Enter the PRIVATE IP address of the server
+host_ip=
+
+#Use S3 if you want to store backup on S3, Use LF if you want to store in local file system
+backup_location=
+
+#Please specify the name of final_gitlab_folder
+final_gitlab_folder=final_folder
+
+#Please specify the folder name where you want to pull the backup files
+folder_name_to_pull_backup_files=S3_folder
+
+#Please specify the bucket name
+Bucket_Name=
+
+#Please specify the folder name
+Folder_Name=
+
+#Please specify the sub folder name
+Sub_Folder_Name=Gitlab_backup_files/
+
+#Pleaes specify the AWS access_key
+AWS_ACCESS_KEY_ID=
+
+#Please specify the AWS secret access key
+AWS_SECRET_ACCESS_KEY=
+
+#Please specify the folder name in which backup tar files are present
+path_of_folder_where_backup_files_are_already_present=/app/transfer_gitlab_backup
+
+#Please specify Yes if you want to take backup
+Backup=
+
+#Please specify Yes if you want to Pull backup file from S3
+Pull=
+
+#Please specify Yes if you want to Pull backup file from S3
+Restore=Yes
